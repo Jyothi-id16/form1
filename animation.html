@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>animation css</title>
+
+    <style>
+        p{
+            border: 2px dotted yellowgreen;
+            width: 18%;
+            height: 45px;
+            background-color: cadetblue;
+            border-radius: 20px;
+            animation-name: ani;
+            animation-duration: 4s;
+            position: absolute;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes ani{
+            0%{background-color: red; left: 0px;}
+            50%{background-color: blueviolet; left: 200px; top: 300px;}
+            100%{background-color: aquamarine; left: 5px; top: 5px;}
+        }
+    </style>
+</head>
+<body>
+    <p></p>
+    
+</body>
+</html>
