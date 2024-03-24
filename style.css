@@ -1,0 +1,11 @@
+h1{
+    border: 3px solid rgb(238, 209, 130);
+}
+
+h2,h3{
+    background-color: rgb(0, 255, 55);
+}
+
+body{
+    background-color: aquamarine;
+}
